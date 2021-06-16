@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navv{
+    width: 100%;
+    padding: 10px;
+    background: #f7f701;
+}
+.navv h2{
+    text-align: center;
+}
+.df{
+    width: 70%;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+.yozuv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.searchSec{
+    width: 50%;
+    background: #f0efef;
+    border-radius: 25px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+.searchSec .input{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+     font-size: 20px;
+}
+.city{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px #bbbbbb4d;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 5% auto;
+    text-align: center;
+}
+.details{
+    margin-top: 30px;
+}
+.details > .city-name{
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.details > .city-temp{
+    font-size: 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.details > .city-temp p{
+    color: gold;
+}
+
+
+
+
+
+
+
+@media (max-width:800px){
+    .searchSec{
+        width: 75% !important;
+    }
+}
+@media (max-width:700px){
+    .searchSec{
+        width: 75% !important;
+    }
+}
+
+
+
+
+
